@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <strong>A sleek, modern, and responsive Formula 1 Ticket Booking System built with PHP & MySQL</strong>  
+  <strong>A sleek and modern Formula 1 Ticket Booking System built with PHP & MySQL</strong>  
 </p>
 
 ---
@@ -33,9 +33,6 @@
 | 💬 Optional APIs   | WhatsApp / Email notifications for feedback |
 | 🎨 CSS Animations  | Hover effects, card transitions, and buttons |
 | 📄 Font Awesome    | Icons for tickets, feedback, and admin tools |
-
----
-
 
 ---
 
