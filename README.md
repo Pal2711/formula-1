@@ -1,10 +1,8 @@
 <h1 align="center">🏎️ F1 Ticket Booking System</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Made%20With-PHP-blue?style=for-the-badge&logo=php" />
   <img src="https://img.shields.io/badge/Database-MySQL-orange?style=for-the-badge&logo=mysql" />
-  <img src="https://img.shields.io/badge/Responsive-Yes-brightgreen?style=for-the-badge" />
 </p>
 
 <p align="center">
@@ -15,14 +13,12 @@
 
 ## ✨ Features at a Glance
 
-- 🟢 **Live F1 Race Updates** – Keep up with ongoing races in real-time  
 - 🎟️ **Choose Ticket Type** – VIP or General Admission  
 - 👤 **User Authentication** – Secure registration & login system  
 - 📖 **Booking History** – Track all your previous ticket bookings  
 - 💬 **Send Feedback** – Submit feedback or suggestions easily  
 - 🛠️ **Admin Dashboard** – Manage races, tickets, bookings, and user feedback  
 - 🎨 **Modern UI** – Dark theme with interactive buttons and responsive design  
-- 📱 **Mobile-Friendly** – Fully functional on desktop, tablet, and mobile devices  
 
 ---
 
