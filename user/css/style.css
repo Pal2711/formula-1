@@ -1,0 +1,1295 @@
+@font-face {
+  font-family: UngapBlocks;
+  src: url(/font/UngapBlocksVariable-Swash.ttf);
+}
+
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Modern Dark Theme Palette */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #f4f6fb;
+  background-color: #121212;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header styles */
+header {
+  background-color: transparent;
+  color: #f4f6fb;
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background: transparent;
+}
+
+.logo h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #f4f6fb;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 1.3rem;
+  align-items: center;
+}
+
+.nav-menu a {
+  color: #f4f6fb;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+  font-size: 15px;
+}
+
+.nav-menu a:hover {
+  color: #00e676;
+  text-decoration: underline;
+}
+
+.user-info {
+  color: #00e676;
+  font-weight: 500;
+}
+
+/* Main content */
+main {
+  margin-top: 80px;
+}
+
+/* Hero section */
+.hero-section {
+  color: #f4f6fb;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #5c606d;
+  color: #11141b;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: 0 2px 12px rgba(41, 121, 255, 0.18);
+}
+
+.cta-button:hover {
+  background-color: #00e676;
+  color: #181c24;
+}
+
+/* Races section */
+.races-section,
+.upcoming-races {
+  padding: 4rem 0;
+  background: rgba(35, 37, 38, 0.4);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+
+.races-section h2,
+.upcoming-races h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #f4f6fb;
+}
+
+.races-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.race-card {
+  background: #121212;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.18);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.race-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(41, 121, 255, 0.18);
+}
+
+.race-image {
+  height: 400px;
+  overflow: hidden;
+}
+
+.race-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: #181c24;
+}
+
+.race-info {
+  padding: 1.5rem;
+}
+
+.race-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #00fff7;
+}
+
+.race-info .track {
+  font-weight: bold;
+  color: #00fff7;
+  margin-bottom: 0.5rem;
+}
+
+.race-info .location {
+  color: #b0b8c1;
+  margin-bottom: 0.5rem;
+}
+
+.race-info .date {
+  font-weight: bold;
+  color: #f4f6fb;
+  margin-bottom: 0.5rem;
+}
+
+.race-info .time {
+  color: #b0b8c1;
+  margin-bottom: 1rem;
+}
+
+.race-info .description {
+  color: #b0b8c1;
+  margin-bottom: 1.5rem;
+}
+
+.book-button {
+  display: inline-block;
+  background-color: #5c606d;
+  color: #11141b;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.book-button:hover {
+  background-color: #00e676;
+  color: #181c24;
+}
+.racedetails-button {
+    color: #fff;
+    text-decoration: underline;
+    margin-left: 180px;
+}
+
+/* Features section */
+.features {
+
+  padding: 4rem 0;
+  background-color: #121212;
+}
+
+.features h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #f4f6fb;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.feature {
+  text-align: center;
+  padding: 2rem;
+  background: #121212;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.18);
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #f4f6fb;
+}
+
+.feature p {
+  color: #b0b8c1;
+}
+
+
+/* Testimonials section */
+.testimonials {
+  background: #121212;
+  color: #f4f6fb;
+}
+
+.testimonials h2 {
+  color: #00e676;
+}
+
+.testimonial-card {
+  background: #121212;
+  color: #f4f6fb;
+}
+
+.testimonial-card p {
+  color: #f4f6fb;
+}
+
+/* F1 Gallery Section - F1 Theme */
+.gallery-highlights {
+  background: linear-gradient(120deg, #121212 60%, #2b0a0a 100%);
+  padding: 4rem 0;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.gallery-highlights h2 {
+  text-align: center;
+  color: #e10600;
+  margin-bottom: 2.5rem;
+  font-size: 2.8rem;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-weight: 900;
+  position: relative;
+}
+
+.gallery-highlights h2::after {
+  content: '';
+  display: block;
+  margin: 0.5rem auto 0 auto;
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #e10600 60%, #f4f6fd 100%);
+  border-radius: 2px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  width: 90vw;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(41, 121, 255, 0.12);
+  object-fit: cover;
+  aspect-ratio: 16/9;
+  border: 2px solid #1a1a1a;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+.gallery-grid img:hover {
+  box-shadow: 0 0 32px 4px #e10600, 0 4px 24px rgba(41, 121, 255, 0.12);
+  border: 2px solid #e10600;
+  z-index: 2;
+}
+
+/* Stay Updated Section - F1 Theme */
+.newsletter-signup {
+  background: linear-gradient(120deg, #121212 60%, #0a1a2b 100%);
+  color: #f4f6fb;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.newsletter-signup h2 {
+  margin-bottom: 1rem;
+  color: #f4f6fd;
+  font-weight: 800;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.newsletter-signup h2::after {
+  content: '';
+  display: block;
+  margin: 0.5rem auto 0 auto;
+  width: 60px;
+  height: 3px;
+  background: #f4f6fd;
+  border-radius: 2px;
+}
+
+.newsletter-signup p {
+  margin-bottom: 2rem;
+  color: #b0b8c1;
+}
+
+.newsletter-signup input[type="email"] {
+  background: #23283b;
+  color: #f4f6fb;
+  border: 2px solid #f4f6fd;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.newsletter-signup input[type="email"]:focus {
+  border: 2px solid #e10600;
+  box-shadow: 0 0 8px #f4f6fd;
+}
+
+.newsletter-signup input[type="email"]::placeholder {
+  color: #b0b8c1;
+}
+
+.newsletter-signup .cta-button {
+  background-color: #5c606d;
+  color: #11141b;
+  box-shadow: 0 0 16px 2px #f4f6fd;
+  border: none;
+  transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.newsletter-signup .cta-button:hover {
+  background-color: #e10600;
+  color: #fff;
+  box-shadow: 0 0 24px 4px #e10600;
+}
+
+/* Partners/Sponsors section */
+.partners-sponsors {
+  background: #121212;
+  border-top: 1px solid #23283b;
+}
+
+.partners-sponsors h2 {
+  color: #f4f6fd;
+}
+
+/* Car Gallery Slider section */
+.car-gallery-slider {
+  background: #121212;
+}
+
+.car-gallery-slider h2 {
+  color: #f4f6fd;
+}
+
+.car-slider-track {
+  display: flex;
+  gap: 1.5rem;
+  will-change: auto;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.car-slider-track img {
+  scroll-snap-align: start;
+}
+
+.car-slider-arrow {
+  background: #23283b;
+  color: #00e676;
+}
+
+.car-slider-arrow:hover {
+  background: #f4f6fd;
+  color: #f4f6fb;
+}
+
+/* Forms */
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: rgba(255, 255, 255, 0.1);
+  color: #121212;
+  font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #f4f6fd;
+}
+
+.btn {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background-color: #00e676;
+  color: #181c24;
+}
+
+.btn-secondary {
+  background-color: #23283b;
+  color: #00e676;
+}
+
+.btn-secondary:hover {
+  background-color: #f4f6fd;
+  color: #f4f6fb;
+}
+
+.message {
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.message.success {
+  background: #23283b;
+  color: #00e676;
+}
+
+.message.error {
+  background: #121212;
+  color: #f4f6fb;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #121212;
+  color: #f4f6fb;
+}
+
+.table th,
+.table td {
+  padding: 1rem;
+  border: 1px solid #444;
+}
+
+.table th {
+  background: #181c24;
+  color: #f4f6fd;
+}
+
+.table tr:hover {
+  background: #23283b;
+}
+
+footer {
+  background: linear-gradient(90deg, #181818 60%, #23283b 100%);
+  position: relative;
+  color: #f4f6fb;
+  padding: 2.5rem 0 1.5rem 0;
+  text-align: center;
+  border-top: 2px solid #23283b;
+  box-shadow: 0 -4px 32px rgba(41, 121, 255, 0.08);
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 180px;
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  color: #ffd700;
+  margin-bottom: 0.7rem;
+  font-family: 'Orbitron', 'Roboto', sans-serif;
+  letter-spacing: 1px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links a {
+  color: #f4f6fb;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.footer-links a:hover {
+  color: #00fff7;
+  text-shadow: 0 0 8px #00fff7, 0 0 16px #00fff7;
+}
+
+.footer-contact p,
+.footer-contact a {
+  color: #b0b8c1;
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+  transition: color 0.3s;
+}
+
+.footer-contact a:hover {
+  color: #ffd700;
+}
+
+.footer-social {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.footer-social a {
+  color: #f4f6fb;
+  font-size: 1.7rem;
+  text-decoration: none;
+  transition: color 0.3s, text-shadow 0.3s, transform 0.3s;
+  filter: drop-shadow(0 0 6px #2979ff);
+  animation: socialGlow 2.5s infinite alternate;
+}
+
+.footer-social a:hover {
+  color: #ffd700;
+  text-shadow: 0 0 12px #ffd700, 0 0 24px #ffd700;
+  transform: scale(1.18) rotate(-8deg);
+  filter: drop-shadow(0 0 12px #ffd700);
+}
+
+@keyframes socialGlow {
+  0% {
+    filter: drop-shadow(0 0 6px #2979ff);
+  }
+
+  100% {
+    filter: drop-shadow(0 0 16px #00fff7);
+  }
+}
+
+.footer-bottom {
+  margin-top: 2rem;
+  color: #b0b8c1;
+  font-size: 0.95rem;
+  border-top: 1px solid #23283b;
+  padding-top: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.footer-icon {
+  color: #f4f6fb;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.footer-icon:hover {
+  color: #00e676;
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  .footer-section {
+    min-width: 0;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    gap: 1rem;
+  }
+
+  .hero-section h2 {
+    font-size: 2rem;
+  }
+
+  .races-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.featured-drivers-section {
+  background: #111;
+  padding: 40px 0 30px 0;
+}
+
+.drivers-title {
+  color: #fff;
+  font-family: 'Orbitron', 'Roboto', sans-serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 28px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.drivers-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  justify-items: center;
+  margin: 0 -125px;
+}
+
+@media (max-width: 700px) {
+  .drivers-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.driver-card {
+  background: #23283b;
+  border-radius: 1rem;
+  padding: 1.5rem 2rem;
+  min-width: 220px;
+  flex: 1 1 220px;
+  max-width: 260px;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.18);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.driver-card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(41, 121, 255, 0.18);
+}
+
+.driver-card .driver-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #f4f6fb;
+}
+
+.driver-card .driver-team {
+  color: #b0b8c1;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 700px) {
+  .drivers-grid {
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+  }
+
+  .driver-card {
+    width: 90%;
+    max-width: 320px;
+  }
+}
+
+/* --- Amazing Effects Additions --- */
+
+/* 1. Fade-in/slide-in animation for features */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.feature {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: box-shadow 0.3s, transform 0.3s;
+  /* Animation will be triggered by JS */
+}
+
+.feature.visible {
+  animation: fadeInUp 0.8s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
+
+/* 2. Glowing effect for Full Screen button */
+#car360-fullscreen {
+  box-shadow: 0 0 8px 2px #e10600, 0 0 0 0 #fff;
+  animation: glowPulse 2s infinite alternate;
+}
+
+@keyframes glowPulse {
+  from {
+    box-shadow: 0 0 8px 2px #e10600, 0 0 0 0 #fff;
+  }
+
+  to {
+    box-shadow: 0 0 24px 8px #ffd700, 0 0 0 0 #fff;
+  }
+}
+
+/* 3. Sticky navbar shadow on scroll */
+header.sticky {
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.18);
+  background: #121212;
+  transition: box-shadow 0.3s, background 0.3s;
+}
+
+/* 4. Car image smooth transition and hover zoom */
+#car360-img {
+  transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.4s;
+}
+
+#car360-img:hover {
+  transform: scale(1.04) rotate(-2deg);
+  box-shadow: 0 8px 32px rgba(225, 6, 0, 0.18);
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* Hide scrollbar for all browsers */
+body::-webkit-scrollbar {
+  height: 0 !important;
+  width: 8px;
+}
+
+html::-webkit-scrollbar {
+  height: 0 !important;
+  width: 8px;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #23283b #121212;
+}
+
+/* For gallery and car slider tracks, prevent horizontal scroll overflow */
+.gallery-grid,
+.car-slider-track {
+  overflow-x: auto;
+  max-width: 100vw;
+}
+
+
+
+/* About us section */
+/* Add this to css/style.css file */
+
+.about-section-custom {
+  background-color: #1c1c1e;
+  color: #f4f6fb;
+  padding: 2.5rem 1rem;
+  font-family: 'Roboto', sans-serif;
+  max-width: 900px;
+  margin: 40px auto 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.10);
+}
+
+.about-section-custom h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #00fff7;
+  font-family: 'UngapBlocks', 'Roboto', sans-serif;
+  letter-spacing: 1px;
+}
+
+.about-section-custom h3 {
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+  color: #ffd700;
+  font-weight: 500;
+}
+
+.about-section-custom p {
+  font-size: 1.05rem;
+  margin-bottom: 1.2rem;
+  text-align: center;
+  color: #f4f6fb;
+  line-height: 1.7;
+}
+
+.about-section-custom ul {
+  margin-left: 1.5rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #f4f6fb;
+  padding-left: 0;
+}
+
+.about-section-custom ul li {
+  margin-bottom: 0.5rem;
+  list-style: disc inside;
+}
+
+@media (max-width: 950px) {
+  .about-section-custom {
+    max-width: 98vw;
+    padding: 1.2rem 0.5rem;
+  }
+
+  .about-section-custom h2 {
+    font-size: 1.3rem;
+  }
+
+  .about-section-custom h3 {
+    font-size: 1.1rem;
+  }
+}
+
+.reachout-slider-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.reachout-arrow {
+  z-index: 2;
+}
+
+.reachout-slider-track {
+  display: flex;
+  transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  width: 100%;
+}
+
+.reachout-card {
+  flex: 0 0 33.3333%;
+  /* 3 cards per view */
+  box-sizing: border-box;
+  margin: 0 10px;
+  background: #232526;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.18);
+}
+
+.reachout-arrow {
+  background: #23283b;
+  color: #ffd700;
+  border: none;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.reachout-arrow:hover {
+  background: #ffd700;
+  color: #23283b;
+}
+
+.reachout-card:last-child {
+  margin-right: 0;
+}
+
+.drivers-slider-wrapper {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.drivers-slider-track {
+  display: flex;
+  gap: 2rem;
+  transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  will-change: transform;
+}
+
+.driver-card {
+  flex: 0 0 25%;
+  /* 4 cards per view on desktop */
+  min-width: 0;
+  background: #232526;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 4px 24px rgba(41, 121, 255, 0.12);
+  padding-bottom: 10px;
+}
+
+.driver-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 18px 18px 0 0;
+}
+
+.driver-card div {
+  color: #f4f6fb;
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
+/* Responsive: 2 cards per view on tablet, 1 on mobile */
+@media (max-width: 900px) {
+  .driver-card {
+    flex: 0 0 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .driver-card {
+    flex: 0 0 100%;
+  }
+}
+
+.drivers-slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #ffd700;
+  font-size: 2rem;
+  transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+}
+
+.drivers-slider-arrow.left {
+  left: -22px;
+  /* half the width, so it sits just outside the slider */
+}
+
+.drivers-slider-arrow.right {
+  right: -22px;
+}
+
+.drivers-slider-arrow:hover {
+  background: #ffd700;
+  color: #232526;
+}
+
+/* F1 Car Loader Styles */
+#f1-loader-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 500vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.5s;
+}
+
+.f1-loader {
+  width: 220px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f1-loader-svg {
+  width: 200px;
+  height: 60px;
+  display: block;
+  filter: drop-shadow(0 4px 12px #000a);
+  animation: f1-car-move 4s linear infinite;
+}
+
+@keyframes f1-car-move {
+  0% {
+    transform: translateX(-800vw) scale(0.8);
+    opacity: 0;
+  }
+
+  30% {
+    transform: translateX(0vw) scale(1);
+    opacity: 1;
+  }
+
+  70% {
+    transform: translateX(0vw) scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(100vw) scale(0.8);
+    opacity: 0;
+  }
+}
+
+
+#f1-loader-overlay.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.f1-loader-img {
+  width: 350px;
+  height: 120px;
+  display: block;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 12px #000a);
+  animation: f1-car-move 4s linear infinite;
+}
+
+.reachout-slider-track.dragging {
+  cursor: grabbing;
+  user-select: none;
+}
+
+.reachout-slider-track {
+  cursor: grab;
+}
+
+
+.winersection {
+  cursor: pointer;
+}
+.winersection:hover {
+  transform: scale(1.05);
+  border-color: #fff; /* border shows on hover */
+}
+
+.winersection:hover .winername {
+  text-decoration: underline;
+}
+
+/* Carousel styles for What Fans Say */
+@keyframes scrollCarousel {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.reachout-slider-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.reachout-slider-track {
+  display: flex;
+  gap: 2rem;
+  will-change: transform;
+  animation: scrollCarousel 30s linear infinite;
+}
+
+.reachout-slider-wrapper:hover .reachout-slider-track {
+  animation-play-state: paused;
+}
+
+.reachout-card {
+  min-width: 320px;
+  background: #222;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 2px 8px #0002;
+  flex-shrink: 0;
+}
+
+.reachout-slider-track::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes driversScrollCarousel {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.drivers-slider-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.drivers-slider-track {
+  display: flex;
+  gap: 2rem;
+  will-change: transform;
+  animation: driversScrollCarousel 10s linear infinite;
+}
+
+.drivers-slider-wrapper:hover .drivers-slider-track {
+  animation-play-state: paused;
+}
+
+.driver-section {
+  cursor: pointer;
+}
+
+.driver-section:hover .driver-name {
+  text-decoration: underline;
+}
+
+
+
+
+/* ===== F1 Teams Page Unique Styles ===== */
+.f1-team-card::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 300px;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255,255,255,0.15) 10%, transparent 70%);
+  opacity: 0.3;
+}
+
+.f1-team-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.f1-team-title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.f1-team-logo {
+  width: 40px;
+  height: 40px;
+  background: #6d2d00;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f1-team-logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.f1-team-drivers {
+  margin-top: 15px;
+  display: flex;
+  gap: 25px;
+}
+
+.f1-driver-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+}
+
+.f1-driver-item img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.f1-team-car {
+  margin-top: 20px;
+  display: flex;
+}
+
+.f1-team-car img {
+  width: 70%;
+  max-width: 700px;
+}

@@ -1,0 +1,11 @@
+h1 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+.admin-title-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
