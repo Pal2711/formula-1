@@ -53,25 +53,4 @@
 
 ---
 
-## 🤝 Contributing
-
-1. Fork the repository  
-2. Create a feature branch (`feature/your-feature`)  
-3. Commit your changes  
-4. Push to GitHub  
-5. Open a Pull Request  
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.  
-
----
-
-## ⚠️ Disclaimer
-
-This project is for **educational purposes only** and is **not affiliated with Formula 1®**.
-
-## 📌 Sample Admin Login
 
