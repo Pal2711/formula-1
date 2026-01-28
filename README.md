@@ -58,7 +58,68 @@
 * 🎨 **Admin UI** – Clean dashboard with dark theme & responsive layout
 
 ---
+🏁 Race Management
 
+➕ Add new F1 races (name, location, date, price)
+
+✏️ Edit race details
+
+❌ Delete or deactivate races
+
+👁️ View all available races
+
+---
+
+📊 Admin Dashboard Overview
+
+📈 Total Users
+
+🎟️ Total Bookings
+
+🏁 Total Races
+
+💬 New Feedback Messages
+
+---
+
+🎟️ Ticket & Booking Management
+
+📄 View all ticket bookings
+
+🔍 Filter bookings by:
+
+User
+
+Race
+
+Ticket Type (VIP / General)
+
+❌ Cancel or remove bookings
+
+📊 View booking statistics
+
+---
+👤 User Management
+
+📋 View registered users
+
+🚫 Block / Unblock users
+
+❌ Delete users if necessary
+
+👁️ View user booking history
+
+---
+
+💬 Feedback Management
+
+📥 View all user feedback
+
+🕒 See feedback timestamps
+
+🗑️ Delete inappropriate or resolved messages
+
+📌 Mark feedback as reviewed
 ## ⚙️ Admin Panel Tech Stack
 
 | 💻 Technology          | 🚀 Usage                           |
