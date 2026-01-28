@@ -22,19 +22,6 @@
 
 ---
 
-## ⚙️ Tech Stack & Tools
-
-| 💻 Technology       | 🚀 Description                              |
-|--------------------|---------------------------------------------|
-| 🐘 PHP             | Server-side scripting language              |
-| 🌐 HTML/CSS/Bootstrap | Frontend design & responsive UI           |
-| 🗃️ MySQL           | Relational database for storing data        |
-| ☁️ XAMPP / WAMP / LAMP | Local server environment for PHP apps   |
-| 💬 Optional APIs   | WhatsApp / Email notifications for feedback |
-| 🎨 CSS Animations  | Hover effects, card transitions, and buttons |
-| 📄 Font Awesome    | Icons for tickets, feedback, and admin tools |
-
----
 
 ## 📈 Future Enhancements
 
@@ -44,6 +31,41 @@
 - 📊 **Live Leaderboard** – Show real-time race standings  
 - 📱 **Progressive Web App (PWA)** – Access tickets from mobile app  
 
+
+
+<h1 align="center">🛡️ F1 Admin Panel</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Role-Administrator-red?style=for-the-badge&logo=security" />
+  <img src="https://img.shields.io/badge/Panel-Dashboard-black?style=for-the-badge&logo=dashboard" />
+</p>
+
+<p align="center">
+  <strong>A powerful and secure Admin Panel to manage the F1 Ticket Booking System</strong>  
+</p>
+
 ---
 
+## 🧩 Admin Features at a Glance
 
+* 🔐 **Admin Authentication** – Secure admin login with session handling
+* 📊 **Dashboard Overview** – View users, bookings, races, and feedback stats
+* 🏁 **Race Management** – Add, update, delete F1 race details
+* 🎟️ **Booking Management** – View & manage all ticket bookings
+* 👤 **User Management** – View, block, or remove users
+* 💬 **Feedback Management** – Review and manage user feedback
+* 🛠️ **Role-Based Access** – Restricted access for admin-only routes
+* 🎨 **Admin UI** – Clean dashboard with dark theme & responsive layout
+
+---
+
+## ⚙️ Admin Panel Tech Stack
+
+| 💻 Technology          | 🚀 Usage                           |
+| ---------------------- | ---------------------------------- |
+| 🐘 PHP                 | Admin-side server logic            |
+| 🗃️ MySQL              | Admin, user, race & booking data   |
+| 🌐 HTML/CSS/Bootstrap  | Admin dashboard UI                 |
+| 🔐 PHP Sessions        | Secure admin authentication        |
+| 📄 Font Awesome        | Icons for admin tools & navigation |
+| 📊 Chart.js (Optional) | Dashboard statistics & analytics   |
