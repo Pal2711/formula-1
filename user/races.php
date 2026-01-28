@@ -223,23 +223,7 @@ try {
     </footer>
 
     <script src="js/script.js"></script>
-    <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
-    <script>
-      // Loader hide logic
-      window.addEventListener('load', function () {
-        var loader = document.getElementById('loader-overlay');
-        loader.classList.add('fade-out');
-        setTimeout(function () {
-          loader.style.display = 'none';
-        }, 2000); // Changed from 600ms to 2000ms for slower fade-out
-      });
-      // WhatsApp widget
-      var wa_btnSetting = { "btnColor": "#16BE45", "ctaText": "", "cornerRadius": 40, "marginBottom": 20, "marginLeft": 20, "marginRight": 20, "btnPosition": "right", "whatsAppNumber": "6356497821", "welcomeMessage": "Welcome to F1 Car Booking – Your race to the thrill begins here!", "zIndex": 999999, "btnColorScheme": "light" };
-      window.onload = () => {
-        _waEmbed(wa_btnSetting);
-      };
-    </script>
-
+    
 </body>
 
 </html>
