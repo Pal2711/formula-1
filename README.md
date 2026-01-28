@@ -6,32 +6,21 @@
 </p>
 
 <p align="center">
-  <strong>A sleek and modern Formula 1 Ticket Booking System built with PHP & MySQL</strong>  
+  <strong>A sleek and modern Formula 1 Ticket Booking System built with PHP & MySQL</strong>
 </p>
-
----
-
-## ✨ Features at a Glance
-
-- 🎟️ **Choose Ticket Type** – VIP or General Admission  
-- 👤 **User Authentication** – Secure registration & login system  
-- 📖 **Booking History** – Track all your previous ticket bookings  
-- 💬 **Send Feedback** – Submit feedback or suggestions easily  
-- 🛠️ **Admin Dashboard** – Manage races, tickets, bookings, and user feedback  
-- 🎨 **Modern UI** – Dark theme with interactive buttons and responsive design  
 
 ---
 
 
 ## 📈 Future Enhancements
 
-- 💳 **Online Payment Integration** – Buy tickets securely  
-- 🪑 **Seat Selection System** – Choose exact seats for each race  
-- ✉️ **Email Ticket Confirmation** – Send tickets automatically via email  
-- 📊 **Live Leaderboard** – Show real-time race standings  
-- 📱 **Progressive Web App (PWA)** – Access tickets from mobile app  
+* 💳 **Online Payment Integration** – Buy tickets securely
+* 🪑 **Seat Selection System** – Choose exact seats for each race
+* ✉️ **Email Ticket Confirmation** – Send tickets automatically via email
+* 📊 **Live Leaderboard** – Show real-time race standings
+* 📱 **Progressive Web App (PWA)** – Access tickets from mobile app
 
-
+---
 
 <h1 align="center">🛡️ F1 Admin Panel</h1>
 
@@ -41,7 +30,7 @@
 </p>
 
 <p align="center">
-  <strong>A powerful and secure Admin Panel to manage the F1 Ticket Booking System</strong>  
+  <strong>A powerful and secure Admin Panel to manage the F1 Ticket Booking System</strong>
 </p>
 
 ---
@@ -58,68 +47,56 @@
 * 🎨 **Admin UI** – Clean dashboard with dark theme & responsive layout
 
 ---
-🏁 Race Management
 
-➕ Add new F1 races (name, location, date, price)
+## 🏁 Race Management
 
-✏️ Edit race details
-
-❌ Delete or deactivate races
-
-👁️ View all available races
+* ➕ Add new F1 races (name, location, date, price)
+* ✏️ Edit race details
+* ❌ Delete or deactivate races
+* 👁️ View all available races
 
 ---
 
-📊 Admin Dashboard Overview
+## 📊 Admin Dashboard Overview
 
-📈 Total Users
-
-🎟️ Total Bookings
-
-🏁 Total Races
-
-💬 New Feedback Messages
+* 📈 Total Users
+* 🎟️ Total Bookings
+* 🏁 Total Races
+* 💬 New Feedback Messages
 
 ---
 
-🎟️ Ticket & Booking Management
+## 🎟️ Ticket & Booking Management
 
-📄 View all ticket bookings
+* 📄 View all ticket bookings
+* 🔍 Filter bookings by:
 
-🔍 Filter bookings by:
-
-User
-
-Race
-
-Ticket Type (VIP / General)
-
-❌ Cancel or remove bookings
-
-📊 View booking statistics
-
----
-👤 User Management
-
-📋 View registered users
-
-🚫 Block / Unblock users
-
-❌ Delete users if necessary
-
-👁️ View user booking history
+  * User
+  * Race
+  * Ticket Type (VIP / General)
+* ❌ Cancel or remove bookings
+* 📊 View booking statistics
 
 ---
 
-💬 Feedback Management
+## 👤 User Management
 
-📥 View all user feedback
+* 📋 View registered users
+* 🚫 Block / Unblock users
+* ❌ Delete users if necessary
+* 👁️ View user booking history
 
-🕒 See feedback timestamps
+---
 
-🗑️ Delete inappropriate or resolved messages
+## 💬 Feedback Management
 
-📌 Mark feedback as reviewed
+* 📥 View all user feedback
+* 🕒 See feedback timestamps
+* 🗑️ Delete inappropriate or resolved messages
+* 📌 Mark feedback as reviewed
+
+---
+
 ## ⚙️ Admin Panel Tech Stack
 
 | 💻 Technology          | 🚀 Usage                           |
@@ -130,3 +107,4 @@ Ticket Type (VIP / General)
 | 🔐 PHP Sessions        | Secure admin authentication        |
 | 📄 Font Awesome        | Icons for admin tools & navigation |
 | 📊 Chart.js (Optional) | Dashboard statistics & analytics   |
+
