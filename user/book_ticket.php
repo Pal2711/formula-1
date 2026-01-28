@@ -239,25 +239,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     </footer>
 
     <script src="js/script.js"></script>
-    <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
-    <script>
-        var wa_btnSetting = {
-            "btnColor": "#16BE45",
-            "ctaText": "",
-            "cornerRadius": 40,
-            "marginBottom": 20,
-            "marginLeft": 20,
-            "marginRight": 20,
-            "btnPosition": "right",
-            "whatsAppNumber": "6356497821",
-            "welcomeMessage": "Welcome to F1 Car Booking – Your race to the thrill begins here!",
-            "zIndex": 999999,
-            "btnColorScheme": "light"
-        };
-        window.onload = () => {
-            _waEmbed(wa_btnSetting);
-        };
-    </script>
-
+   
 </body>
 </html>
