@@ -195,16 +195,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       <div style="margin-top: 2.2rem; font-size: 0.98rem; color: #b0b8c1;">&copy; <?php echo date('Y'); ?> F1 Ticket Booking. All rights reserved.</div>
     </div>
   </footer>
-
-  <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
-  <script>
-    var wa_btnSetting = {
-      "btnColor": "#16BE45", "ctaText": "", "cornerRadius": 40, "marginBottom": 20,
-      "marginLeft": 20, "marginRight": 20, "btnPosition": "right", "whatsAppNumber": "6356497821",
-      "welcomeMessage": "Welcome to F1 Car Booking – Your race to the thrill begins here!",
-      "zIndex": 999999, "btnColorScheme": "light"
-    };
-    window.onload = () => { _waEmbed(wa_btnSetting); };
-  </script>
 </body>
 </html>
